@@ -7,22 +7,28 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "TANUKI KUJI";
+const description = "A COLLECTION OF PROGRAMATICALLY GENERATED TANUKI CHARACTERS.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 15,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Leg" },
+      { name: "Body" },
+      { name: "Cloth" },
+      { name: "Neck" },
+      { name: "Eye" },
+      { name: "Cheek" },
+      { name: "Snout" },
+      { name: "Mouth" },
+      { name: "Nose" },
+      { name: "Ear" },
+      { name: "Head" },
+      { name: "Arm" },
     ],
   },
 ];
@@ -32,13 +38,13 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
-  smoothing: false,
+  width: 1280,
+  height: 1280,
+  smoothing: true,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://fishycarp.blogspot.com", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -113,7 +119,7 @@ const gif = {
 
 const text = {
   only: false,
-  color: "#ffffff",
+  color: "#ffffff", // white
   size: 20,
   xGap: 40,
   yGap: 40,
@@ -129,10 +135,10 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: true,
-  brightness: "80%",
-  static: false,
-  default: "#000000",
+  generate: false, // original true
+  brightness: "90%", // original 80%
+  static: true, // original false
+  default: "#ffffff", // original black "#000000"
 };
 
 const rarityDelimiter = "#";

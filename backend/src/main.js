@@ -51,7 +51,7 @@ const getRarityWeight = (_str) => {
     nameWithoutExtension.split(rarityDelimiter).pop()
   );
   if (isNaN(nameWithoutWeight)) {
-    nameWithoutWeight = 1;
+    nameWithoutWeight = 100; // original 1
   }
   return nameWithoutWeight;
 };
@@ -115,7 +115,7 @@ const saveImage = (_editionCount) => {
 };
 
 const genColor = () => {
-  let hue = Math.floor(Math.random() * 360);
+  let hue = Math.floor(Math.random() * 360); 
   let pastel = `hsl(${hue}, 100%, ${background.brightness})`;
   return pastel;
 };
@@ -193,7 +193,7 @@ const addText = (_sig, x, y, size) => {
 
 const drawElement = (_renderObject, _index, _layersLen) => {
   ctx.globalAlpha = _renderObject.layer.opacity;
-  ctx.globalCompositeOperation = _renderObject.layer.blend;
+  ctx.globalCompositeOperation = _renderObject.layer.blend + 100; // original without + 100
   text.only
     ? addText(
         `${_renderObject.layer.name}${text.spacer}${_renderObject.layer.selectedElement.name}`,

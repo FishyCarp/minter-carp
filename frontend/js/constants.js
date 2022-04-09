@@ -1,5 +1,5 @@
-const contractAddress = "0x879F95DFe750bB0478eecBCC2A9835DEdFA255f0"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x08CC8b318f62BA9edA19D47f406Dfc95558B3214"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Home of the Tanuki Kuji Collection";
 const welcome_h2 = "Connect to MetaMask or CoinBase to Get Started";

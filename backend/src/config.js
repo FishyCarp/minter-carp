@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "TANUKI KUJI";
-const description = "A COLLECTION OF PROGRAMATICALLY GENERATED TANUKI CHARACTERS.";
+const description = "A COLLECTION OF PROGRAMATICALLY GENERATED RACCOON DOGS.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -33,15 +33,15 @@ const layerConfigurations = [
   },
 ];
 
-const shuffleLayerConfigurations = true;
+const shuffleLayerConfigurations = true; // shuffle growhedition
 
 const debugLogs = false;
 
 const format = {
   width: 1280,
   height: 1280,
-  smoothing: true,
-};
+  smoothing: false,
+}; // size of images same as image layers
 
 const extraMetadata = {
   external_url: "https://fishycarp.blogspot.com", // Replace with your website or remove this line if you do not have one.

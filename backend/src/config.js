@@ -55,7 +55,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby (free - testing) or polygon (free - irreversible)
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'TANUKI KUJI';
+const CONTRACT_NAME = 'TANUKIKUJI';
 const CONTRACT_SYMBOL = 'TK';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x50726260e8064906652dc0cacc5a1a5e8f323967';

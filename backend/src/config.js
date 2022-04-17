@@ -44,7 +44,7 @@ const format = {
 }; // size of images same as image layers
 
 const extraMetadata = {
-  external_url: "https://tanukikuji.netlify.app/", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://fishycarp.blogspot.com/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info

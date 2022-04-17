@@ -1,4 +1,4 @@
-const contractAddress = "0x08CC8b318f62BA9edA19D47f406Dfc95558B3214"; //Replace with your own contract address
+const contractAddress = "0x6716339976Fa62fC3556516772d3118A3b7b7Ae8"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Home of the Tanuki Kuji Collection";
